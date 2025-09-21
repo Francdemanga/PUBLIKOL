@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Publikol</title>
+  <link rel="icon" href="img/ICON-LOGO.png" type="image/x-icon" />
+<!--
+
+
+-->
+    <!-- <<Mobile Viewport Code>> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            
+    <!-- <<Attched Stylesheets>> -->
+    <link rel="stylesheet" href="css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/media.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,400italic,800,700' rel='stylesheet' type='text/css'>    
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+
+</head>
+<script>
+  window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+  });
+</script>
+
+<body>
+
+  <style>
+    .site-logo img {
+      display: block;
+      animation: logoPulse 6s infinite alternate ease-in-out;
+      transform-origin: center center;
+    }
+    @keyframes logoPulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.07);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }.site-logo {
+  margin-left: 15px; /* ajuste la valeur selon besoin */
+}
+#loader-wrapper {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: #222;
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  background: url('img/ICON-LOGO.png') no-repeat center center;
+  background-size: contain;
+  border-radius: 0;
+  border: none;
+  animation: none;
+  z-index: 1001;
+}
+
+#loader:before,
+#loader:after {
+  display: none;
+}
+
+.loaded #loader-wrapper {
+  animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; visibility: hidden; }
+}
+
+  </style>
+  
+</head>
+
+<body>
+  
+  
+
+
+  
+</body>
+
+</head>
+
+<body>
+<div id="loader-wrapper">
+  <div id="loader"></div>
+</div>
+
+<!-- \\ Begin Holder \\ -->
+<div class="DesignHolder">
+	<!-- \\ Begin Frame \\ -->
+	<div class="LayoutFrame">
+        <!-- \\ Begin Header \\ -->
+        <header>
+            <div class="site-logo">
+  <a href="#home">
+    <img src="img/LOGO-PUBLIKOL-PNG.png" alt="Publikol Logo" style="height:50px;">
+  </a>
+</div>
+               <div id="mobile_sec">
+               <div class="mobile"><i class="fa fa-bars"></i><i class="fa fa-times"></i></div>
+                <div class="menumobile">
+                    <!-- \\ Begin Navigation \\ -->
+                    <nav class="Navigation">
+                        <ul>
+                            <li class="active">                                
+                                <a href="#home">Home</a>
+                                <span class="menu-item-bg"></span>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                                <span class="menu-item-bg"></span>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                                <span class="menu-item-bg"></span>
+                            </li>
+                            <li>
+                                <a href="#pricing">Plans & Pricing</a>
+                                <span class="menu-item-bg"></span>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                                <span class="menu-item-bg"></span>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- // End Navigation // -->
+				</div>
+				</div>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <!-- // End Header // -->
+        <!-- \\ Begin Banner Section \\ -->
+        <div class="Banner_sec" id="home">
+            <!--  \\ Begin banner Side -->
+            <div class="bannerside">
+	            <div class="Center">
+                    <!--  \\ Begin Left Side -->
+                    <div class="leftside">
+                        <h3>publikol<span>Communicate Strongly</span></h3>
+                        <p> publikol, creativity at the service of your brand by Phoenix Group 4 LLC.</p>
+                        
+                    </div>                        								
+                    <!--  // End Left Side // -->
+                    <!--  \\ Begin Right Side -->
+                    <div class="rightside">
+                    	<ul id="slider">	
+                    		<li>
+                                <div class="Slider">
+                                    <figure><img src="img/Slider-img3.png" alt="image"></figure>
+                                    <div class="text">
+                                        <div class="Icon">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-heart"></i>700</a></li>
+                                                <li><a href="#"><i class="fa fa-commenting"></i>150</a></li>
+                                            </ul>	
+                                        </div>                        								
+                                        <div class="Lorem">
+          <p>Simplify publishing, <span>maximise impact.</span></p>
+        </div>
+                                    </div>
+                                </div>
+							</li>
+                    		<li>
+                                <div class="Slider">
+                                    <figure><img src="img/Slider-img5.png" alt="image"></figure>
+                                    <div class="text">
+                                        <div class="Icon">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-heart"></i>700</a></li>
+                                                <li class="num"><a href="#"><i class="fa fa-commenting"></i>150</a></li>
+                                            </ul>	
+                                        </div>                        								
+                                        <div class="Lorem">
+          <p>Boost your visibility, <span>reach new heights.</span></p>
+        </div>
+                                    </div>
+                                </div>
+							</li>
+						</ul>                                                            
+            	        <figure><img src="img/Shadow-img.png" alt="image" class="Shadow"></figure>                                                        
+                    </div>
+                    <!--  // End Right Side // -->
+	            </div>
+            </div>
+            <!--  // End banner Side // -->
+            <div class="clear"></div>
+        </div>
+        <!-- // End Banner Section // -->
+         <div class="bgcolor"></div>
+        <!-- \\ Begin Container \\ -->
+        <div id="Container">
+            <!-- \\ Begin About Section \\ -->
+            <div class="About_sec" id="about">
+                <div class="Center">            	
+                   <h2>about us</h2>            		
+                    <p>Publikol is an innovative agency specialising in graphic design, computer graphics,<br> video editing, audiovisual production, event recording, training and digital promotion.
+                        We support brands, businesses and individuals.</p>
+                    <div class="Line"></div>	
+                    <!-- \\ Begin Tab side \\ -->
+                    <div class="Tabside">
+                        <ul>
+                            <li><a href="javascript:;" class="tabLink activeLink" id="cont-1">Mission</a></li>
+                            <li><a href="javascript:;" class="tabLink" id="cont-2">vision</a></li>
+                            <li><a href="javascript:;" class="tabLink" id="cont-3">Values</a></li>
+                        </ul>
+                      <div class="clear"></div>
+                        <div class="tabcontent" id="cont-1-1">
+                            <div class="TabImage">
+                                <div class="img1">
+                                    <figure><img src="img/vision.png" alt="image"></figure>	
+                                </div>
+                                <div class="img2">
+                                    <figure><img src="img/about-img1.png" alt="image"></figure>
+                                </div>
+                            </div>
+                            <div class="Description">
+                                <h3>master your digital skills<span>Creativity and innovation at the service of your communication.</span></h3>
+                                <p>Our mission is to support brands, businesses and individuals by offering them innovative solutions in  <span class="cyan">graphic-design,computer-graphics,video-editing,audiovisual-production,event-recording,</span>training and digital promotion, in order to enhance their image and strengthen their</p>
+                                <p>We are committed to providing creative and personalised services, combining technical expertise with an understanding of our clients' needs. Thanks to our innovative approach, we help our partners tell their story, capture their audience's attention and successfully complete their digital transformation.</p>
+                            </div>
+                        </div>
+                        <div class="tabcontent hide" id="cont-2-1">
+                            <div class="TabImage">
+                                <div class="img1">
+                                    <figure><img src="img/values.png" alt="image"></figure>	
+                                </div>
+                                <div class="img2">
+                                    <figure><img src="img/vision.png" alt="image"></figure>
+                                </div>
+                            </div>
+                            <div class="Description">
+                                <h3>Innovate to Communicate<span>Your Story, Our Creativity.</span></h3>
+                                <p>Publikol aims to be an essential partner in the digital transformation journey of its clients. We provide creative and innovative solutions tailored to each client’s unique needs, helping them strengthen their brand image and effectively engage their target audience. Through a personalized and expert approach, </p>
+                                <p>we combine cutting-edge technology with deep industry knowledge to deliver impactful communication strategies. Our commitment is to empower businesses and individuals to stand out in a competitive digital landscape, fostering growth, visibility, and lasting connections with their customers.</p>
+                            </div>
+                        </div>
+                        <div class="tabcontent hide" id="cont-3-1">
+                            <div class="TabImage">
+                                <div class="img1">
+                                    <figure><img src="img/about-img1.png" alt="image"></figure>	
+                                </div>
+                                <div class="img2">
+                                    <figure><img src="img/values.png" alt="image"></figure>
+                                </div>
+                            </div>
+                            <div class="Description">
+                                <h3>The essence of our commitment <span>The principles that guide everything we do.</span></h3>
+                                <p>We stand for transparency, creativity, and close collaboration. These pillars define our essence and guide us in making impactful, sustainable decisions.</p>
+                                 <p>Our promise is to offer unique, tailored solutions that combine expert skills with a true grasp of our clients’ goals. With innovation at our core, we enable our partners to express their vision, captivate their audience, and thrive in the digital world.</p>
+                            </div>
+                        </div>
+	                    <div class="clear"></div>	
+                    </div>                    
+                    <!-- // End Tab Side // -->
+                </div>
+            </div>
+            <!-- // End About Section // -->
+        <!-- \\ Begin Services Section \\ -->
+        <div class="Services_sec" id="services">
+            <div class="Center">
+                <h2>our Services</h2>
+                <p> Creative and professional solutions to boost your visibility.
+
+We offer a full range of services from digital content creation to communication management. Our goal is to support you with modern solutions tailored to your needs and focused on impact:
+
+Visual identity & graphic design: logos, graphic charters and communication materials.<br> Website & application creation: modern, responsive and optimised.
+
+Audiovisual production: promotional videos, interviews, documentaries.
+
+Digital marketing: social media management, advertising campaigns, online visibility.
+
+Each service is designed to strengthen your image and bring you closer to your audience.</p>		
+                <div class="Line"></div>
+                <!-- \\ Begin Services Side  \\ -->
+                
+                <!-- // End Services Side // -->
+            </div>                
+        </div>
+        <!-- // End Services Section // -->
+<!-- // End Services Section // -->
+<!-- Carousel Start -->
+<style>
+  #carousel {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    height: 60vh;
+  }
+  #carousel .track {
+    display: flex;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+    height: 100%;
+  }
+  #carousel .track img {
+    width: 100vw;
+    flex-shrink: 0;
+    user-select: none;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  #carousel .track img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  /* Flèches */
+  #carousel .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.5rem;
+    color: #07B6E9;
+    background: rgba(255,255,255,0.85);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  #carousel .arrow:hover {
+    background: #07B6E9;
+    color: white;
+  }
+  #carousel .arrow.left {
+    left: 10px;
+  }
+  #carousel .arrow.right {
+    right: 10px;
+  }#carousel .track img {
+  width: 100vw;
+  flex-shrink: 0;
+  user-select: none;
+  height: 100%;
+  object-fit: cover; /* Remplacer par contain en mobile */
+  transition: transform 0.4s ease;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Sur petits écrans, images non recadrées */
+@media (max-width: 768px) {
+  #carousel {
+    height: auto; /* hauteur automatique */
+  }
+  #carousel .track img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+</style>
+
+<div id="carousel">
+  <div class="arrow left">&#10094;</div>
+  <div class="arrow right">&#10095;</div>
+  <div class="track">
+    <img src="img/silde-1.png" alt="Image 1">
+    <img src="img/silde-2.png" alt="Image 2">
+    <img src="img/silde-3.png" alt="Image 3">
+    <img src="img/silde-4.png" alt="Image 4">
+    <img src="img/silde-5.png" alt="Image 5">
+  </div>
+</div>
+
+<script>
+  (function(){
+    const track = document.querySelector('#carousel .track');
+    const images = track.children;
+    const totalImages = images.length;
+    let index = 0;
+
+    const updateCarousel = () => {
+      const viewportWidth = window.innerWidth;
+      track.style.transform = `translateX(-${index * viewportWidth}px)`;
+    };
+
+    // Auto slide
+    let interval = setInterval(() => {
+      index = (index + 1) % totalImages;
+      updateCarousel();
+    }, 2500);
+
+    // Arrows
+    const leftArrow = document.querySelector('#carousel .arrow.left');
+    const rightArrow = document.querySelector('#carousel .arrow.right');
+
+    leftArrow.addEventListener('click', () => {
+      clearInterval(interval);
+      index = (index - 1 + totalImages) % totalImages;
+      updateCarousel();
+      interval = autoSlide();
+    });
+
+    rightArrow.addEventListener('click', () => {
+      clearInterval(interval);
+      index = (index + 1) % totalImages;
+      updateCarousel();
+      interval = autoSlide();
+    });
+
+    // Restart auto slide
+    function autoSlide() {
+      return setInterval(() => {
+        index = (index + 1) % totalImages;
+        updateCarousel();
+      }, 2500);
+    }
+
+    // Update on resize
+    window.addEventListener('resize', updateCarousel);
+
+    // Initial position
+    updateCarousel();
+  })();
+</script>
+<!-- Carousel End -->
+
+   <!-- \\ Begin Pricing Section \\ -->
+        <div class="Pricing_sec" id="pricing">
+            <div class="Center">
+                <h2>Plans & Pricing</h2>
+                <p>Publikol offers comprehensive expertise in visual and digital communication, combining graphic design, video production, event recording and digital training. With flexible pricing to suit all budgets, we support brands,<br>
+                businesses and individuals in enhancing and promoting their image effectively and creatively.</p>
+                <div class="Line"></div>
+                <!-- \\ Begin Plans & Pricing Side \\ -->
+                <div class="Plans & Pricingside">
+                    <ul> <li>
+                            <div class="Basic">
+  <h5>basic</h5>
+</div>
+<div class="Dollar">
+  <h2>€90.50</h2>
+</div>
+<div class="Band">
+  <p>2 design logo <span>proposals</span></p>
+</div>
+<div class="Band">
+  <p>2 revisions<span>included</span></p>
+</div>
+<div class="Band">
+  <p>Support<span>14 days</span></p>
+</div>
+<div class="Band last">
+  <p>vector and <span>web formats</span></p>
+</div>
+<div class="Order">
+ <style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #333;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 13px;
+  pointer-events: none;
+}
+.tooltip:hover .tooltiptext,
+.tooltip.show .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+</style>
+
+<a href="https://wa.me/+15645446961?text=Hello%2C%20here%20are%20the%20details%20of%20my%20order%3A%20-%20Basic%20-%20Price%3A%20%E2%82%AC90.50%20-%202%20design%20logo%20proposals%20-%202%20revisions%20included%20-%20Support%2014%20days%20-%20vector%20and%20web%20formats" target="_blank" class="whatsappOrder">
+  order via WhatsApp
+  <span class="tooltip">
+    <i class="fa fa-info-circle"></i>
+    <span class="tooltiptext">By clicking on “order via WhatsApp”, you agree that your contact details will be shared with Publikol's customer service department for the purpose of processing your request.</span>
+  </span>
+</a>
+
+
+<script>
+  document.querySelectorAll('.tooltip').forEach(el => {
+    el.addEventListener('click', e => {
+      e.preventDefault();
+      el.classList.toggle('show');
+      document.querySelectorAll('.tooltip').forEach(other => {
+        if(other !== el) other.classList.remove('show');
+      });
+    });
+  });
+
+  document.addEventListener('click', e => {
+    if(!e.target.closest('.tooltip')) {
+      document.querySelectorAll('.tooltip').forEach(el => el.classList.remove('show'));
+    }
+  });
+</script>
+
+
+</div>
+                        </li>
+                        <li>
+                          <div class="Basic">
+  <h5>Crea</h5>
+</div>
+<div class="Dollar">
+  <h2>€450</h2>
+</div>
+<div class="Band">
+  <p>custom <span>logo design</span></p>
+</div>
+<div class="Band">
+  <p>for print <span>and web media</span></p>
+</div>
+<div class="Band">
+  <p>Colours and <span>typography</span></p>
+</div>
+<div class="Band last">
+  <p>Supporte <span>20 Days</span></p>
+</div>
+<div class="Order">
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: #333;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      z-index: 100;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 13px;
+      pointer-events: none;
+    }
+    .tooltip:hover .tooltiptext,
+    .tooltip.show .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+
+  <a href="https://wa.me/+15645446961?text=Hello%2C%20here%20are%20the%20details%20of%20my%20order%3A%20-%20Pack%20Creation%20-%20Price%3A%20%E2%82%AC450%20-%20Custom%20logo%20design%20-%20For%20print%20and%20web%20media%20-%20Colours%20and%20typography%20-%20Support%2020%20days" target="_blank" class="whatsappOrder">
+    order via WhatsApp
+    <span class="tooltip">
+      <i class="fa fa-info-circle"></i>
+      <span class="tooltiptext">By clicking on “order via WhatsApp”, you agree that your contact details will be shared with Publikol's customer service department for the purpose of processing your request.</span>
+    </span>
+  </a>
+</div>
+
+                        </li>
+                        <li>
+                            <div class="Basic">
+  <h5>TV BDG</h5>
+</div>
+<div class="Dollar">
+  <h2>€600–800</h2>
+</div>
+<div class="Band">
+  <p>Jingles & <span>TV animations</span></p>
+</div>
+<div class="Band">
+  <p>Animations <span>TV/video</span></p>
+</div>
+<div class="Band">
+  <p>Support <span>25 DAYS</span></p>
+</div>
+<div class="Band last">
+  <p>Files ready <span>to broadcast</span></p>
+</div>
+<div class="Order">
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: #333;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      z-index: 100;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 13px;
+      pointer-events: none;
+    }
+    .tooltip:hover .tooltiptext,
+    .tooltip.show .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+
+  <a href="https://wa.me/+15645446961?text=Hello%2C%20here%20are%20the%20details%20of%20my%20order%3A%20-%20TV%20BDG%20Pack%20-%20Price%3A%20%E2%82%AC600%E2%80%93800%20-%20Jingles%20%26%20TV%20animations%20-%20Animations%20TV%2Fvideo%20-%20Support%2025%20DAYS%20-%20Files%20ready%20to%20broadcast" target="_blank" class="whatsappOrder">
+    order via WhatsApp
+    <span class="tooltip">
+      <i class="fa fa-info-circle"></i>
+      <span class="tooltiptext">By clicking on “order via WhatsApp”, you agree that your contact details will be shared with Publikol's customer service department for the purpose of processing your request.</span>
+    </span>
+  </a>
+</div>
+ </li>
+                        <li>
+                         <div class="Basic">
+  <h5>UI/UX</h5>
+</div>
+<div class="Dollar">
+  <h2>€60–90</h2>
+  <small class="per-screen">per screen</small>
+</div>
+<div class="Band">
+  <p>User needs <span>analysis</span></p>
+</div>
+<div class="Band">
+  <p>Wireframe <span>per screen</span></p>
+</div>
+<div class="Band">
+  <p>Support <span>25 DAYS</span></p>
+</div>
+<div class="Band last">
+  <p>Custom <span>visual design</span></p>
+</div>
+<div class="Order">
+  <style>
+    .Dollar {
+      position: relative;
+      text-align: center;
+      padding-bottom: 18px;
+    }
+    .Dollar small.per-screen {
+      position: absolute;
+      bottom: 4px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.89rem;
+      color: #ffffff;
+      font-weight: normal;
+      white-space: nowrap;
+    }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: #ffffff;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      z-index: 100;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 13px;
+      pointer-events: none;
+    }
+    .tooltip:hover .tooltiptext,
+    .tooltip.show .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+
+  <a href="https://wa.me/+15645446961?text=Hello%2C%20here%20are%20the%20details%20of%20my%20order%3A%20-%20UI%2FUX%20Pack%20-%20Price%3A%20%E2%82%AC60%E2%80%9390%20per%20screen%20-%20User%20needs%20analysis%20-%20Wireframe%20per%20screen%20-%20Support%2025%20DAYS%20-%20Custom%20visual%20design" target="_blank" class="whatsappOrder">
+  order via WhatsApp
+  <span class="tooltip">
+    <i class="fa fa-info-circle"></i>
+    <span class="tooltiptext">By clicking on “order via WhatsApp”, you agree that your contact details will be shared with Publikol's customer service department for the purpose of processing your request.</span>
+  </span>
+</a>
+
+</div>
+ </li>
+                        <li>
+<div class="Basic">
+  <h5>Video</h5>
+</div>
+<div class="Dollar">
+  <h2>€300–500</h2>
+</div>
+<div class="Band">
+  <p>2-minute <span>video</span></p>
+</div>
+<div class="Band">
+  <p>Editing <span>included</span></p>
+</div>
+<div class="Band">
+  <p>Royalty-free <span>music</span></p>
+</div>
+<div class="Band last">
+  <p>Support <span>14 DAYS</span></p>
+</div>
+<div class="Order">
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: #ffffff;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      z-index: 100;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 13px;
+      pointer-events: none;
+    }
+    .tooltip:hover .tooltiptext,
+    .tooltip.show .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+
+  <a href="https://wa.me/+15645446961?text=Hello%2C%20here%20are%20the%20details%20of%20my%20order%3A%20-%20Video%20Pack%20-%20Price%3A%20%E2%82%AC300%E2%80%93500%20-%202-minute%20video%20-%20Editing%20included%20-%20Royalty-free%20music%20-%20Support%2014%20DAYS" target="_blank" class="whatsappOrder">
+    order via WhatsApp
+    <span class="tooltip">
+      <i class="fa fa-info-circle"></i>
+      <span class="tooltiptext">By clicking on “order via WhatsApp”, you agree that your contact details will be shared with Publikol's customer service department for the purpose of processing your request.</span>
+    </span>
+  </a>
+</div>
+
+ </li>
+                        <li>
+
+<div class="Basic">
+  <h5>video pro</h5>
+</div>
+<div class="Dollar">
+  <h2>€350 – 500</h2>
+  <small class="per-screen">TV and web video</small>
+</div>
+<div class="Band">
+  <p>5 mins <span>Video editing</span></p>
+</div>
+<div class="Band">
+  <p>Graphic <span>design</span></p>
+</div>
+<div class="Band">
+  <p>Support <span>14 days</span></p>
+</div>
+<div class="Band last">
+  <p>Custom <span>visual design</span></p>
+</div>
+<div class="Order">
+  <style>
+    .Dollar {
+      position: relative;
+      text-align: center;
+      padding-bottom: 18px;
+    }
+    .Dollar small.per-screen {
+      position: absolute;
+      bottom: 4px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.89rem;
+      color: #ffffff;
+      font-weight: normal;
+      white-space: nowrap;
+    }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: #ffffff;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      z-index: 100;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 13px;
+      pointer-events: none;
+    }
+    .tooltip:hover .tooltiptext,
+    .tooltip.show .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+
+  <a href="https://wa.me/+15645446961?text=Hello%2C%20here%20are%20the%20details%20of%20my%20order%3A%20-%20Video%20Pro%20Pack%20-%20Price%3A%20%E2%82%AC350%20%E2%80%93%20500%20-%205%20mins%20Video%20editing%20-%20Graphic%20design%20-%2014%20days%20support" target="_blank" class="whatsappOrder">
+    order via WhatsApp
+    <span class="tooltip">
+      <i class="fa fa-info-circle"></i>
+      <span class="tooltiptext">By clicking on “order via WhatsApp”, you agree that your contact details will be shared with Publikol's customer service department for the purpose of processing your request.</span>
+    </span>
+  </a>
+</div>
+ </li>
+                        <li>
+<div class="Basic">
+  <h5>Video Motion</h5>
+</div>
+<div class="Dollar">
+  <h2>€250–350</h2>
+  <small class="per-screen">TV and web video</small>
+</div>
+<div class="Band">
+  <p>1 minute <span>video editing</span></p>
+</div>
+<div class="Band">
+  <p>Motion <span>design effects</span></p>
+</div>
+<div class="Band">
+  <p>Dynamic <span>transitions</span></p>
+</div>
+<div class="Band last">
+  <p>Support <span>14 DAYS</span></p>
+</div>
+<div class="Order">
+  <style>
+    .Dollar {
+      position: relative;
+      text-align: center;
+      padding-bottom: 18px;
+    }
+    .Dollar small.per-screen {
+      position: absolute;
+      bottom: 4px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.89rem;
+      color: #ffffff;
+      font-weight: normal;
+      white-space: nowrap;
+    }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: #ffffff;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      z-index: 100;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 13px;
+      pointer-events: none;
+    }
+    .tooltip:hover .tooltiptext,
+    .tooltip.show .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+
+  <a href="https://wa.me/+15645446961?text=Hello%2C%20here%20are%20the%20details%20of%20my%20order%3A%20-%20Video%20Motion%20Pack%20-%20Price%3A%20%E2%82%AC250%E2%80%93350%20-%201%20minute%20video%20editing%20-%20Motion%20design%20effects%20-%20Dynamic%20transitions%20-%20Support%2014%20DAYS" target="_blank" class="whatsappOrder">
+    order via WhatsApp
+    <span class="tooltip">
+      <i class="fa fa-info-circle"></i>
+      <span class="tooltiptext">By clicking on “order via WhatsApp”, you agree that your contact details will be shared with Publikol's customer service department for the purpose of processing your request.</span>
+    </span>
+  </a>
+</div>
+
+ </li>
+                        <li>
+                          <div class="Basic">
+  <h5>Digital Pub</h5>
+</div>
+<div class="Dollar">
+  <h2>€170 – 200</h2>
+</div>
+<div class="Band">
+  <p>Creation of <span>10 impactful visuals</span></p>
+</div>
+<div class="Band">
+  <p>5 <span>dynamic reels</span></p>
+</div>
+<div class="Band">
+  <p>Content <span>tailored to your brand</span></p>
+</div>
+<div class="Band last">
+  <p>Support <span>14 DAYS</span></p>
+</div>
+<div class="Order">
+  <style>
+    .Dollar {
+      position: relative;
+      text-align: center;
+      padding-bottom: 18px;
+    }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      z-index: 100;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 13px;
+      pointer-events: none;
+    }
+    .tooltip:hover .tooltiptext,
+    .tooltip.show .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+
+  <a href="https://wa.me/+15645446961?text=Hello%2C%20here%20are%20the%20details%20of%20my%20order%3A%20-%20Digital%20Pub%20Pack%20-%20Price%3A%20%E2%82%AC170%20%E2%80%93%20200%20-%20Creation%20of%2010%20impactful%20visuals%20-%205%20dynamic%20reels%20-%20Content%20tailored%20to%20your%20brand%20-%20Support%2025%DAYS" target="_blank" class="whatsappOrder">
+    order via WhatsApp
+    <span class="tooltip">
+      <i class="fa fa-info-circle"></i>
+      <span class="tooltiptext">By clicking on “order via WhatsApp”, you agree that your contact details will be shared with Publikol's customer service department for the purpose of processing your request.</span>
+    </span>
+  </a>
+</div>
+
+                        </li>
+                    </ul>                	
+                </div>
+                <div style="text-align: center; margin: 30px 0;">
+  <button onclick="document.getElementById('contactForm').scrollIntoView({behavior: 'smooth'});" 
+    style="
+      padding: 12px 30px; 
+      background: #07B6E9; 
+      color: #fff; 
+      border: none; 
+      border-radius: 5px; 
+      font-size: 16px; 
+      cursor: pointer;
+      max-width: 90vw;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(232, 231, 231, 0.2);
+      transition: background-color 0.3s ease;
+    "
+    onmouseover="this.style.background='#055a8c'"
+    onmouseout="this.style.background='#07B6E9'">
+    FREE ESTIMATE
+  </button>
+</div>
+
+                <!-- // End Pricing Side // -->
+            </div>
+        </div>
+        <!-- // End Pricing Section // -->
+        <!-- \\ Begin Contact Section \\ -->
+        <div class="Contact_sec" id="contact">
+            <div class="Contactside">
+                 <div class="Center">
+                    <h2>contact us</h2>
+                    <p>Do you have a question or are you ready to start your project? Fill in the form below and send us your details via WhatsApp or email.<br>
+                    Our team at Publikol is here to help you quickly. We look forward to bringing your ideas to life.</p>
+                    <div class="Line"></div>
+                </div>  
+
+             </div>
+
+                <div class="Map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23512.318179125286!2d43.0039740436302!3d42.554448362192716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405b78672d596991%3A0x8900032defd7a8cc!2sDidi%20Chorjo%2C%20G%C3%A9orgie!5e0!3m2!1sfr!2scm!4v1758025307605!5m2!1sfr!2scm" width="1500" height="399" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+                  <!-- \\ Begin Get Section \\ -->
+                <div class="Get_sec">
+                    <div class="Mid">					
+                        <!-- \\ Begin Left Side \\ -->
+                        <div class="Leftside">
+                            <form id="contactForm" action="#">
+  <fieldset>
+    <p><input type="text" id="name" placeholder="NAME" class="field" required></p>
+    <p><input type="email" id="email" placeholder="EMAIL" class="field" required></p>
+    <p><input type="text" id="title" placeholder="TITLE" class="field" required></p>
+    <p><textarea id="message" cols="2" rows="2" placeholder="MESSAGE" required></textarea></p>
+   <p style="text-align: center;">
+  <a href="#" id="whatsappSend" class="button" style="display: inline-flex; align-items: center; justify-content: center; text-decoration: none; background:#25D366; color: white; padding: 10px 20px; border-radius: 5px; margin: 0 auto;">
+    <i class="fa fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i> Send via WhatsApp
+  </a>
+</p>
+
+
+  </fieldset>
+</form>
+
+                        </div>
+                        <!-- // End Left Side // -->
+                        <!-- \\ Begin Right Side \\ -->
+                        <div class="Rightside">
+                            <h3>Get in touch !</h3>
+                                <address>
+                                   Georgia, Ambrolauri district, Didi Chorjo village, <br>5th
+street, N 28.
+                                </address>	
+                                <address class="Number">
+                                    (+001) 001 002 0034, (+002) 009 008 0760<br>(+003) 456 050 0670 
+                                </address>	
+                                <address class="Email">
+                                    <a href="mailto:info@november.com">publikol25@gmail.com</a>
+                                </address>	
+                                <div class="clear"></div>
+                                <ul>
+                                    <li><a rel="nofollow" href="https://web.facebook.com/profile.php?id=61574986232973&sk=about"
+                                   target="_parent"><img src="img/facebook-icn.png" alt="image"></a></li>
+                                    <li><a href="#"><img src="img/twitter-icn.png" alt="image"></a></li>
+                                    <li><a href="#"><img src="img/google-plus-icn.png" alt="image"></a></li>
+                                </ul>
+                        </div>
+                        <!-- // End Right Side // -->
+                    </div>
+                    <!-- \\ Begin Footer \\-->
+                    <footer>
+                        <div class="Cntr">                
+                            <p>COPYRIGHT © 2025 Phoenix Group 4 LLC. DESIGN: <a rel="nofollow" href="https://web.facebook.com/profile.php?id=61574986232973" target="_parent">PUBLIKOL</a></p>
+                        </div>
+                    </footer>
+                    <!-- // End Footer // -->
+                </div>
+                <!-- // End Get Section // -->
+            
+            </div>
+            <!-- // End Contact Section // -->
+        </div>
+        <!-- // End Container // -->
+	</div>
+	<!-- // End Layout Frame // -->
+</div>
+<!-- // End Design Holder // -->
+<div id="loader-wrapper">
+<div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
+<!-- <<Attched Javascripts>> -->
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.sudoSlider.min.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script>
+document.getElementById('whatsappSend').addEventListener('click', function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const title = document.getElementById('title').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  if (!name || !email || !title || !message) {
+    alert('Please complete all fields before submitting.');
+    return;
+  }
+
+  const whatsappNumber = '15645446961'; // Sans + ni espaces
+  const text = `Nom: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0ATitre: ${encodeURIComponent(title)}%0AMessage: ${encodeURIComponent(message)}`;
+
+  const url = `https://wa.me/${whatsappNumber}?text=${text}`;
+
+  window.open(url, '_blank');
+});
+</script>
+
+
+</body>
+</html>
